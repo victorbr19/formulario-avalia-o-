@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>avaliaçâo</title>
+</head>
+<body>
+    <form action="http://192.168.2.138:8090/av01" method="get" target="_blank">
+        <fieldset>
+          <div>
+            <h1>Avaliação U01 M02 FS10</h1>
+          </div>
+          <div>
+            <label for="name">Nome Completo</label><br>
+            <input type="text" id="nome" name="nome">
+          </div>
+          <div>
+
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" id="email">
+          </div>
+          <div>
+             <label for="marcas">Marcas de Carro</label><br>
+             <select name="marca" id="marca">
+                <option value="bentley">Bentley</option>
+                <option value="bmw">BMW</option>
+                <option value="mercedes">Mecedes</option>
+                <option value="porsche">Porsche</option>
+                <option value="toyota" selected>Toyota</option>
+             </select>
+                         
+          </div>
+          <div>
+
+            <label for="velocidade">Velocidade Máxima (100 e 200)</label><br>
+            <input type="range" name="velocidade" id="velocidade" min="100" max="200">
+
+          </div>
+          <div>
+
+             <label for="cor">Cor Preferida</label><br>
+             <input type="radio" name="vermelha" id="vermelha" value="vermelho">
+             <label for="cor">Vermelha</label>
+             <input type="radio" name="verde" id="verde" value="verde">
+             <label for="cor">Verde</label>
+             <input type="radio" name="azul" id="azul" value="azul" checked>
+             <label for="cor">Azul</label>  
+
+          </div>
+          <div>
+            <button type="reset">Limpar</button>
+            <button type="submit">Cadastra</button>
+          </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

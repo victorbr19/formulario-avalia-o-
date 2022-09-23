@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(222, 184, 135);
+    text-align: center;
+    
+    
+}
+h1 {
+    color: rgb(255, 99, 71);
+}
+
+div {
+    padding: 1%;
+}
+
+fieldset {
+
+    background-color: bisque;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
